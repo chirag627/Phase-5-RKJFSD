@@ -1,0 +1,41 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com"
+    },
+    {
+      "id": 2,
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "steve@codingthesmartway.com"
+    },
+    {
+      "id": 4,
+      "first_name": "Will",
+      "last_name": "Smith",
+      "email": "wsmith@codingthesmartway.com"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Java",
+      "content": "java is a prog. language",
+      "id": 1
+    },
+    {
+      "title": "Y",
+      "content": "yyyy",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "rk",
+      "password": ""
+    }
+  ]
+}

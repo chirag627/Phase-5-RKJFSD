@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="AccountName"
+      #accountName
+    />
+  </div>
+  <div class="col">
+    <select name="" id="" class="form-control" #status>
+      <option value="active">Active</option>
+      <option value="inactive">InAcive</option>
+      <option value="hidden">Hidden</option>
+    </select>
+  </div>
+  <div class="col">
+    <button
+      class="btn btn-info"
+      (click)="onCreateAccount(accountName.value, status.value)"
+    >
+      Add
+    </button>
+  </div>
+</div>

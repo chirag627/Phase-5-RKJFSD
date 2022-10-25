@@ -1,0 +1,18 @@
+<label>Product Name</label>
+<input type="text" class="form-control w-25" [(ngModel)]="productName" />
+<!-- <p>{{ productName }}</p> -->
+<button
+  class="btn btn-sm btn-primary mt-2"
+  [disabled]="!allowNewProduct"
+  (click)="onCreateProduct()"
+>
+  Add Product
+</button>
+<!-- <p *ngIf="productCreated">{{ productCreationStatus }}</p> -->
+
+<div class="container mt-5">
+  <p *ngFor="let product of products; let i = index">
+    {{ i + 1 }}. {{ product }}
+  </p>
+  <!-- <app-product></app-product> -->
+</div>

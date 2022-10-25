@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-12T09:43:34 IST" name="Suite" finished-at="2022-10-12T09:45:51 IST" duration-ms="137789">
+    <groups>
+    </groups>
+    <test started-at="2022-10-12T09:43:34 IST" name="FirefoxTest" finished-at="2022-10-12T09:44:55 IST" duration-ms="81480">
+      <class name="Automate">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Automate@e15b7e8]" started-at="2022-10-12T09:43:34 IST" name="beforeTest" finished-at="2022-10-12T09:43:37 IST" duration-ms="3784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="getLoadingTIme()[pri:1, instance:Automate@e15b7e8]" started-at="2022-10-12T09:43:37 IST" name="getLoadingTIme" finished-at="2022-10-12T09:44:44 IST" duration-ms="66203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoadingTIme -->
+        <test-method signature="checkImages()[pri:2, instance:Automate@e15b7e8]" started-at="2022-10-12T09:44:44 IST" name="checkImages" finished-at="2022-10-12T09:44:47 IST" duration-ms="3660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkImages -->
+        <test-method signature="scrollPage()[pri:3, instance:Automate@e15b7e8]" started-at="2022-10-12T09:44:47 IST" name="scrollPage" finished-at="2022-10-12T09:44:54 IST" duration-ms="6810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollPage -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Automate@e15b7e8]" started-at="2022-10-12T09:44:54 IST" name="afterTest" finished-at="2022-10-12T09:44:55 IST" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Automate -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2022-10-12T09:44:55 IST" name="ChromeTest" finished-at="2022-10-12T09:45:51 IST" duration-ms="56271">
+      <class name="Automate">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Automate@d9345cd]" started-at="2022-10-12T09:44:55 IST" name="beforeTest" finished-at="2022-10-12T09:44:56 IST" duration-ms="1088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="getLoadingTIme()[pri:1, instance:Automate@d9345cd]" started-at="2022-10-12T09:44:56 IST" name="getLoadingTIme" finished-at="2022-10-12T09:45:40 IST" duration-ms="44085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoadingTIme -->
+        <test-method signature="checkImages()[pri:2, instance:Automate@d9345cd]" started-at="2022-10-12T09:45:40 IST" name="checkImages" finished-at="2022-10-12T09:45:44 IST" duration-ms="3367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkImages -->
+        <test-method signature="scrollPage()[pri:3, instance:Automate@d9345cd]" started-at="2022-10-12T09:45:44 IST" name="scrollPage" finished-at="2022-10-12T09:45:51 IST" duration-ms="7596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollPage -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Automate@d9345cd]" started-at="2022-10-12T09:45:51 IST" name="afterTest" finished-at="2022-10-12T09:45:51 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Automate -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

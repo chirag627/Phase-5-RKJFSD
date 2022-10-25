@@ -1,0 +1,71 @@
+<!-- <h1>Hello Angular !!</h1> -->
+
+<!-- <app-server></app-server> -->
+
+<!-- <div class="container">
+  <app-products></app-products>
+</div> -->
+
+<!-- <div class="container mt-5">
+  <app-ecomm></app-ecomm>
+</div> -->
+
+<!-- <div class="container mt-5">
+  <app-numbers></app-numbers>
+</div> -->
+
+<!-- <div class="container mt-5">
+  <app-accounts></app-accounts>
+</div> -->
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <ul class="nav nav-tabs">
+        <li
+          role="presentation"
+          class="nav-item"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a class="nav-link" routerLink="/">Home</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="server">Server</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="products">Products</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a href="" class="nav-link" routerLink="numbers">Numbers</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a href="" class="nav-link" routerLink="ecomm">ShoppingCart</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a href="" class="nav-link" routerLink="accounts">Accounts</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a href="" class="nav-link" routerLink="observables">Observables</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a href="" class="nav-link" routerLink="tforms">TForms</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a href="" class="nav-link" routerLink="rforms">RForms</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a href="" class="nav-link" routerLink="users">Users</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a href="" class="nav-link" routerLink="posts">Posts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

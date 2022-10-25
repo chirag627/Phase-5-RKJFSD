@@ -1,0 +1,35 @@
+<div class="container mt-5">
+  <div class="row mb-2">
+    <div class="col">
+      <span class="h4">{{ account.name }}</span>
+      <span class="p-3">This account is {{ account.status }}</span>
+    </div>
+    <div class="col">
+      <div class="btn-group">
+        <button
+          class="btn btn-outline-primary btn-sm"
+          (click)="changeStatus('Active')"
+        >
+          Active
+        </button>
+        <button
+          class="btn btn-outline-secondary btn-sm"
+          (click)="changeStatus('InActive')"
+        >
+          InActive
+        </button>
+        <button
+          class="btn btn-outline-dark btn-sm"
+          (click)="changeStatus('Hidden')"
+        >
+          Hidden
+        </button>
+      </div>
+    </div>
+    <div class="col">
+      <button class="btn btn-danger btn-sm" (click)="deleteAccount()">
+        Delete
+      </button>
+    </div>
+  </div>
+</div>

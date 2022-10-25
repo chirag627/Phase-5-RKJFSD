@@ -1,0 +1,6 @@
+<p
+  [ngStyle]="{ backgroundColor: getColor() }"
+  [ngClass]="{ instock: productStatus === 'InStock' }"
+>
+  Product with ID {{ productId }} is {{ productStatus }}
+</p>

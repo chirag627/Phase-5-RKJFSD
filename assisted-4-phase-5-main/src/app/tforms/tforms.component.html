@@ -1,0 +1,81 @@
+<div class="container m-2 border justify-center" style="width: 400px">
+  <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+    <div class="row">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          class="form-control"
+          name="username"
+          ngModel
+          required
+          #username="ngModel"
+        />
+        <span class="small" *ngIf="!username.valid && username.touched"
+          >Please enter a valid username</span
+        >
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          class="form-control"
+          name="email"
+          ngModel
+          required
+          email
+          #email="ngModel"
+        />
+        <span class="small" *ngIf="!email.valid && email.touched"
+          >Please enter a valid email</span
+        >
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group">
+        <label for="secret">Secret Question</label>
+        <select
+          name="secret"
+          id="secret"
+          class="form-control"
+          ngModel
+          [ngModel]="defaultQuestion"
+        >
+          <option value="pet">Your First Pet</option>
+          <option value="car">Your First Car</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <div class="radio" *ngFor="let gender of genders">
+          <label for="">
+            <input
+              type="radio"
+              name="gender"
+              ngModel
+              [value]="gender"
+              required
+            />
+            {{ gender }}
+          </label>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-primary m-2" [disabled]="!f.valid">Submit</button>
+  </form>
+  <div class="row" *ngIf="submitted">
+    <div class="col">
+      <h3>Your Data</h3>
+      <p>Username: {{ user.username }}</p>
+      <p>Email: {{ user.email }}</p>
+      <p>Secret: {{ user.secret }}</p>
+      <p>Gender: {{ user.gender }}</p>
+    </div>
+  </div>
+</div>

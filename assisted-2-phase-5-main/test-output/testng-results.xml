@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T16:54:46 IST" name="Default suite" finished-at="2022-09-30T16:55:27 IST" duration-ms="40197">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T16:54:46 IST" name="Default test" finished-at="2022-09-30T16:55:27 IST" duration-ms="40197">
+      <class name="automate.Main">
+        <test-method is-config="true" signature="setup()[pri:0, instance:automate.Main@306e95ec]" started-at="2022-09-30T16:54:46 IST" name="setup" finished-at="2022-09-30T16:54:51 IST" duration-ms="4319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Registration()[pri:0, instance:automate.Main@306e95ec]" started-at="2022-09-30T16:54:51 IST" name="Registration" finished-at="2022-09-30T16:55:01 IST" duration-ms="10384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method signature="Login()[pri:2, instance:automate.Main@306e95ec]" started-at="2022-09-30T16:55:01 IST" name="Login" finished-at="2022-09-30T16:55:08 IST" depends-on-methods="automate.Main.Registration" duration-ms="6707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="search()[pri:3, instance:automate.Main@306e95ec]" started-at="2022-09-30T16:55:08 IST" name="search" finished-at="2022-09-30T16:55:19 IST" duration-ms="11138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="cart()[pri:4, instance:automate.Main@306e95ec]" started-at="2022-09-30T16:55:19 IST" name="cart" finished-at="2022-09-30T16:55:27 IST" duration-ms="7587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+      </class> <!-- automate.Main -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

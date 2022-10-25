@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Product Name"
+        name="productName"
+        #productNameInput
+      />
+    </div>
+    <div class="col">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Quantity"
+        name="quantity"
+        [(ngModel)]="productQuantity"
+      />
+    </div>
+    <div class="col">
+      <button
+        name="addProduct"
+        class="btn btn-primary"
+        (click)="onAddProduct(productNameInput)"
+      >
+        Add
+      </button>
+    </div>
+  </div>
+</div>
